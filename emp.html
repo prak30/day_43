@@ -78,12 +78,6 @@
                     <label class="text" for="others">Others</label>
                 </div>
             </div>
-            <div class="row-content">
-                <label class="label text" for="salary">Choose your salary: </label>
-                <input class="input" type="range" name="salary" id="salary" min="300000" step="100" max="500000"
-                    value="400000">
-                <output class="salary-output text" for="salary">400000</output>
-            </div>
             <!-- UC5 -->
             <div class="row-content">
                 <label class="label text" for="salary">Choose Your Salary: </label>
@@ -147,6 +141,18 @@
                         <option value="2019">2019</option>
                         <option value="2018">2018</option>
                     </select>
+                </div>
+            </div>
+            <!-- UC6 -->
+            <div class="row-content">
+                <label class="label text" for="notes">Notes</label>
+                <textarea class="input" name="Notes" id="notes" placeholder="" style="height: 100px;"></textarea>
+            </div>
+            <div class="buttonParent">
+                <a href="emp.html" class="resetButton button cancelButton">Cancel</a>
+                <div class="submit-reset">
+                    <button type="submit" class="button submitButton" id="submitButton">Submit</button>
+                    <button type="submit" class="button resetButton">Reset</button>
                 </div>
             </div>
         </form>
