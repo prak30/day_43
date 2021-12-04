@@ -126,7 +126,7 @@ select {
     background-color: transparent;
 }
 /* UC6 */
-.buttonParent{
+.button-content{
     display: flex;
     margin-bottom: 10px;
     justify-content: space-between;
